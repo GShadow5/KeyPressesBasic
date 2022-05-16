@@ -2,8 +2,8 @@
     B12NumbersV3
     Basic processing key press tracker for reference.
     by Nayan Sawyer
-    started May13 2022
-    version 1.0.0 May 13 2022
+    started May 13 2022
+    version 1.0.1 May 16 2022
 */
 
 int[] keys; // Declare key tracking array
