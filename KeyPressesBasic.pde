@@ -7,12 +7,17 @@
 */
 
 int[] keys; // Declare key tracking array
+Demo d; // Declare a demo object
 
 void setup(){
+  size(400,400);
   keys = new int[0]; // Initialize key tracking array
+  d = new Demo(width/2,height/2); // Initialize demo object
 }
 
 void draw(){
+  background(196);
+  d.display(); // Display demo object
   
   // Output for demostration and debugging
   for(int i = 0; i < keys.length; i++){
